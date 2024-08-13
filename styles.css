@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: -webkit-linear-gradient(to right, #e766c0, #cdebba);
+    background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header img {
+    margin-right: 20px;
+    opacity: 0.8;
+  }
+
+header h1 { /* Color del título del header */
+    color: #e452a7;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #412836;
+}
+
+section {
+    padding: 50px;
+}
+    
+  
+
+section h2 { color: #e61997; }
+
+section p { color: #c41790; }
+
+/* Estilos específicos para cada sección */
+#quienes-somos {
+  background: -webkit-linear-gradient(to right,  #e766c0, #cdebba);
+  background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+#servicios {
+  background: -webkit-linear-gradient(to right,  #e766c0, #cdebba);
+  background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+#galeria {
+  background: -webkit-linear-gradient(to right,  #e766c0, #cdebba);
+  background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+#noticias {
+  background: -webkit-linear-gradient(to right,  #e766c0, #cdebba);
+  background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+#acceso-personal {
+  background: -webkit-linear-gradient(to right,  #e766c0, #cdebba);
+  background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+#acceso-clientes {
+    background: -webkit-linear-gradient(to right, #e766c0, #cdebba);
+    background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+#empleo {
+    background: -webkit-linear-gradient(to right, #e766c0, #cdebba);
+    background: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #67d36b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e9b1b1;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
